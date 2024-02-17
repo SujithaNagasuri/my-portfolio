@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.para {
+  font-weight: 222;
+  font-size: 0.8rem;
+}
+
+section {
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+}
+.content .home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1286-768x512.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.content .home-intro h1 {
+  font-size: 4rem;
+  font-weight: 555;
+}
+.content .home-intro h2 {
+  font-size: 3rem;
+  font-weight: 444;
+}
+.content .home-intro .para {
+  font-size: 1.5rem;
+}
+.content .home-intro .btn {
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+}
+.content .home-img {
+  height: 80vh;
+  border-radius: 5rem;
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+}
+
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://freenaturestock.com/wp-content/uploads/freenaturestock-2152-1024x696.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about h2 {
+  font-weight: 888;
+}
+
+.about-img {
+  height: 60vh;
+  border-radius: 5rem;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+}
+
+.Education {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://freenaturestock.com/wp-content/uploads/freenaturestock-580-1024x683.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Education h2 {
+  font-weight: 888;
+}
+
+.tabs-section {
+  height: 100vh;
+  position: fixed;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+}
+
+.img {
+  width: 70%;
+  height: 9rem;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
