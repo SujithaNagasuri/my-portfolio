@@ -117,4 +117,10 @@ section {
 }
 .projects .card-text {
   font-size: 12px;
+}
+
+.Certifications {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://freenaturestock.com/wp-content/uploads/freenaturestock-2204-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
