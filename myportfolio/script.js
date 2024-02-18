@@ -5,6 +5,6 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.accordion-item,.about-intro', { origin: 'right' });
-ScrollReveal().reveal('.about-img', { origin: 'left' });
+ScrollReveal().reveal('.accordion-item,.about-intro,.right', { origin: 'right' });
+ScrollReveal().reveal('.about-img,.quote, .left', { origin: 'left' });
 ScrollReveal().reveal('.heading', { origin: 'top' });

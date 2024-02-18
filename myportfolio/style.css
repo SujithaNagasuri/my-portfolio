@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
   margin: 0;
@@ -15,6 +15,19 @@
 
 section {
   height: 100vh;
+  width: 100%;
+}
+
+.tabs-section {
+  height: 100vh;
+  position: fixed;
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+}
+
+.img {
+  width: 70%;
+  height: 9rem;
+  border-radius: 50%;
 }
 
 .content {
@@ -38,7 +51,7 @@ section {
   font-size: 1.5rem;
 }
 .content .home-intro .btn {
-  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
 }
 .content .home-img {
   height: 80vh;
@@ -76,15 +89,32 @@ section {
 .Education .accordion-button {
   background: #CFE2FF;
 }
-
-.tabs-section {
-  height: 100vh;
-  position: fixed;
-  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+.Education .quote {
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
 }
 
-.img {
-  width: 70%;
-  height: 9rem;
-  border-radius: 50%;
+.skills {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills p {
+  font-weight: 111;
+  font-size: 0.8rem;
+}
+.skills .progress {
+  height: 0.7rem;
+}
+
+.projects {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.projects .card-img-top {
+  height: 11rem;
+}
+.projects .card-text {
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
