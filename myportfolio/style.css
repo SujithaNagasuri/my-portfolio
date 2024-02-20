@@ -16,12 +16,15 @@
 section {
   height: 100vh;
   width: 100%;
+  background-position: center;
 }
 
 .tabs-section {
   height: 100vh;
   position: fixed;
   box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img {
@@ -67,8 +70,7 @@ section {
 .about h2 {
   font-weight: 888;
 }
-
-.about-img {
+.about .about-img {
   height: 60vh;
   border-radius: 5rem;
   box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
@@ -88,6 +90,9 @@ section {
 }
 .Education .accordion-button {
   background: #CFE2FF;
+}
+.Education .accordion-body {
+  color: white;
 }
 .Education .quote {
   box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
@@ -123,4 +128,9 @@ section {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://freenaturestock.com/wp-content/uploads/freenaturestock-2204-1024x683.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
+}
+.Certifications img {
+  width: 20rem;
+  margin-right: 2rem;
 }/*# sourceMappingURL=style.css.map */
