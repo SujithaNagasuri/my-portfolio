@@ -2,27 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    
+
 
 }
-$box-shadow: 0 5px 1rem rgba(255,255,255,0.5);
-.para{
+
+$box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+
+.para {
     font-weight: 222;
     font-size: .8rem;
 }
-section{
+
+section {
     height: 100vh;
     width: 100%;
     background-position: center;
 }
 
-.tabs-section{
+.tabs-section {
     height: 100vh;
     position: fixed;
     box-shadow: $box-shadow;
@@ -31,94 +34,112 @@ section{
     background-size: cover;
 }
 
-.img{
-        width: 70%;
-        height: 9rem;
-        border-radius: 50%;
+.img {
+    width: 70%;
+    height: 9rem;
+    border-radius: 50%;
 }
-.content{
+
+.content {
     width: 100%;
-    .home{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1286-768x512.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    .home {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1286-768x512.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
         color: white;
     }
-    .home-intro{
-        h1{
+
+    .home-intro {
+        h1 {
             font-size: 4rem;
             font-weight: 555;
         }
-        h2{
+
+        h2 {
             font-size: 3rem;
             font-weight: 444;
         }
-        .para{
+
+        .para {
             font-size: 1.5rem;
         }
-        .btn{
+
+        .btn {
             box-shadow: $box-shadow;
         }
     }
-    .home-img{
+
+    .home-img {
         height: 80vh;
         border-radius: 5rem;
-        box-shadow: 0 5px 1rem rgba(255,255,255,0.5);
+        box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
     }
 }
+
 // about section open
-.about{
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://cdn.pixabay.com/photo/2014/08/01/00/08/trees-407256_1280.jpg');
-    
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://cdn.pixabay.com/photo/2014/08/01/00/08/trees-407256_1280.jpg');
+
     background-repeat: no-repeat;
     background-size: cover;
-    h2{
+
+    h2 {
         font-weight: 888;
     }
-    .about-img{
+
+    .about-img {
         height: 60vh;
         border-radius: 5rem;
-        box-shadow: 0 5px 1rem rgba(0,0,0,0.5);
+        box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
     }
 }
 
 // about section close
 
 // education section open
-.Education{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://freenaturestock.com/wp-content/uploads/freenaturestock-1583-768x512.jpeg');
+.Education {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://freenaturestock.com/wp-content/uploads/freenaturestock-1583-768x512.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    h2{
+
+    h2 {
         font-weight: 888;
     }
-    p{
+
+    p {
         font-weight: 111;
         font-size: .8rem;
     }
-    .accordion-button{
+
+    .accordion-button {
         background: #CFE2FF;
     }
-    .accordion-body{
+
+    .accordion-body {
         color: white;
     }
-    .quote{
+
+    .quote {
         box-shadow: $box-shadow;
     }
-   
+
 }
+
 // education section close
 
 // skills section open
-.skills{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg');
+.skills {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    p{
+
+    p {
         font-weight: 111;
         font-size: .8rem;
     }
-    .progress{
+
+    .progress {
         height: .7rem;
     }
 }
@@ -126,50 +147,48 @@ section{
 // skills section close
 
 // projects section open
-.projects{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg');
+.projects {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
 
-    .card-img-top{
+    .card-img-top {
         height: 11rem;
     }
-    .card-text{
+
+    .card-text {
         font-size: 12px;
     }
 }
+
 // projects section close
 
 // certication section open
-.Certifications{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://freenaturestock.com/wp-content/uploads/freenaturestock-2204-1024x683.jpg');
+.Certifications {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://freenaturestock.com/wp-content/uploads/freenaturestock-2204-1024x683.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    
 
-    img{
+
+    img {
         width: 20rem;
         // height: 20rem;
         margin-right: 2rem;
     }
 
 }
+
 // certification section close
 
-.contact{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://cdn.pixabay.com/photo/2021/09/27/10/22/daisy-6660244_1280.jpg');
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/photo/2021/09/27/10/22/daisy-6660244_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    form{
+    form {
         box-shadow: $box-shadow;
     }
 }
-
-
-
-
-
