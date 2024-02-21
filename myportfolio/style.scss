@@ -32,6 +32,41 @@ section {
     // background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://cdn.pixabay.com/photo/2015/11/25/09/42/rocks-1061540_960_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
+    .nav-link{
+        position: relative;
+        &:hover::after{
+            width: 25%;
+        }
+        &:hover::before{
+            width: 25%;
+        }
+
+    }
+    .nav-link::after{
+        content: "";
+        position: absolute;
+        background: white;
+        width: 0;
+        height: 1px;
+        bottom: 5px;
+        left: 50%;
+        border-radius: 5px;
+        transition: width .5s linear;
+    }
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        background: white;
+        width: 0;
+        height: 1px;
+        bottom: 5px;
+        right: 50%;
+        border-radius: 5px;
+        transition: width .5s linear;
+
+    }
+   
 }
 
 .img {

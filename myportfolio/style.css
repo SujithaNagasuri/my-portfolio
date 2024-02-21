@@ -26,6 +26,37 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.tabs-section .nav-link {
+  position: relative;
+}
+.tabs-section .nav-link:hover::after {
+  width: 25%;
+}
+.tabs-section .nav-link:hover::before {
+  width: 25%;
+}
+.tabs-section .nav-link::after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 0;
+  height: 1px;
+  bottom: 5px;
+  left: 50%;
+  border-radius: 5px;
+  transition: width 0.5s linear;
+}
+.tabs-section .nav-link::before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 0;
+  height: 1px;
+  bottom: 5px;
+  right: 50%;
+  border-radius: 5px;
+  transition: width 0.5s linear;
+}
 
 .img {
   width: 70%;
